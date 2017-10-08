@@ -1,0 +1,19 @@
+{
+  "name": "lyutrias-sunken-theme",
+  "displayName": "Lyutria's Sunken Theme",
+  "description": "Smooth photoshop inspired theme for Aseprite",
+  "version": "1.2.3",
+  "author": { "name": "Lyutria", "email": "None", "url": "" },
+  "contributors": [
+  ],
+  "publisher": "Lyutria",
+  "license": "CC-BY-4.0",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      { "id": "Sunken Dark", "path": "." }
+    ]
+  }
+}
