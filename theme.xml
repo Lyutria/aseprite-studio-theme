@@ -20,27 +20,27 @@
         <dim id="tabs_close_icon_height" value="12" />
         <dim id="tabs_icon_width" value="10" />
         <dim id="timeline_top_border" value="1" />
-        <dim id="timeline_tags_area_height" value="4" />
+        <dim id="timeline_tags_area_height" value="3" />
         <dim id="timeline_outline_width" value="2" />
         <dim id="palette_outline_width" value="3" />
         <dim id="color_slider_height" value="14" />
         <dim id="timeline_base_size" value="12" />
     </dimensions>
     <colors>
-        <color id="text" value="#eeeeee" />
-        <color id="disabled" value="#968275" />
+        <color id="text" value="#cccccc" />
+        <color id="disabled" value="#777777" />
         <color id="face" value="#333333" />
-        <color id="hot_face" value="#faf0e6" />
+        <color id="hot_face" value="#888888" />
         <color id="selected" value="#ff5555" />
         <color id="separator_label" value="#7C9BFF" />
         <color id="background" value="#333333" />
-        <color id="textbox_text" value="#eeeeee" />
+        <color id="textbox_text" value="#cccccc" />
         <color id="textbox_face" value="#333333" />
         <color id="textbox_code_face" value="#eeeeee" />
         <color id="entry_suffix" value="#c6c6c6" />
         <color id="link_text" value="#7C9BFF" />
         <color id="link_hover" value="#ff5555" />
-        <color id="button_normal_text" value="#dddddd" />
+        <color id="button_normal_text" value="#cccccc" />
         <color id="button_hot_text" value="#eeeeee" />
         <color id="button_selected_text" value="#ffffff" />
         <color id="check_hot_face" value="#3e3e3e" />
@@ -54,7 +54,7 @@
         <color id="menuitem_highlight_text" value="#ffffff" />
         <color id="menuitem_highlight_face" value="#7c909f" />
         <color id="window_face" value="#555555" />
-        <color id="window_titlebar_text" value="#ffffff" />
+        <color id="window_titlebar_text" value="#cccccc" />
         <color id="window_titlebar_face" value="#383838" />
         <color id="editor_face" value="#111111" />
         <color id="editor_sprite_border" value="#000000" />
@@ -65,7 +65,7 @@
         <color id="listitem_selected_text" value="#cccccc" />
         <color id="listitem_selected_face" value="#111111" />
         <color id="slider_empty_text" value="#000000" />
-        <color id="slider_full_text" value="#ffffff" />
+        <color id="slider_full_text" value="#777777" />
         <color id="tab_normal_text" value="#777777" />
         <color id="tab_active_text" value="#cccccc" />
         <color id="tab_active_face" value="#333333" />
@@ -77,20 +77,20 @@
         <color id="filelist_odd_row_text" value="#cccccc" />
         <color id="filelist_odd_row_face" value="#333333" />
         <color id="filelist_selected_row_text" value="#ffffff" />
-        <color id="filelist_selected_row_face" value="#ff5555" />
+        <color id="filelist_selected_row_face" value="#7c909f" />
         <color id="filelist_disabled_row_text" value="#ffc8c8" />
         <color id="workspace" value="#333333" />
-        <color id="workspace_text" value="#655561" />
-        <color id="workspace_link" value="#655561" />
-        <color id="workspace_link_hover" value="#ffff7d" />
+        <color id="workspace_text" value="#555555" />
+        <color id="workspace_link" value="#888888" />
+        <color id="workspace_link_hover" value="#4488ff" />
         <color id="timeline_normal" value="#242424" />
-        <color id="timeline_normal_text" value="#000000" />
+        <color id="timeline_normal_text" value="#070707" />
         <color id="timeline_hover" value="#d9d9d9" />
         <color id="timeline_hover_text" value="#000000" />
         <color id="timeline_active" value="#333333" />
-        <color id="timeline_active_text" value="#ffffff" />
+        <color id="timeline_active_text" value="#222222" />
         <color id="timeline_active_hover" value="#3e3e3e" />
-        <color id="timeline_active_hover_text" value="#ffffff" />
+        <color id="timeline_active_hover_text" value="#111111" />
         <color id="timeline_clicked" value="#536069" />
         <color id="timeline_clicked_text" value="#ffffff" />
         <color id="timeline_padding" value="#333333" />
@@ -99,11 +99,11 @@
         <color id="status_bar_text" value="#999999" />
         <color id="status_bar_face" value="#333333" />
         <color id="flag_normal" value="#d3cbbe" />
-        <color id="flag_active" value="#ff0000" />
+        <color id="flag_active" value="#aa5555" />
         <color id="flag_clicked" value="#7d929e" />
         <color id="select_box_ruler" value="#0000ff" />
         <color id="select_box_grid" value="#64c864" />
-        <color id="edit_pal_face" value="#655561" />
+        <color id="edit_pal_face" value="#535353" />
     </colors>
     <parts>
         <part id="cursor_normal" x="80" y="0" w="16" h="16" focusx="0" focusy="0" />
@@ -231,17 +231,17 @@
         <part id="ani_next" x="176" y="192" w="5" h="5" />
         <part id="ani_last" x="184" y="192" w="5" h="5" />
         <part id="pal_edit" x="144" y="200" w="5" h="5" />
-        <part id="pal_sort" x="152" y="200" w="5" h="5" />
-        <part id="pal_presets" x="160" y="200" w="5" h="5" />
-        <part id="pal_options" x="168" y="200" w="5" h="5" />
-        <part id="pal_resize" x="176" y="200" w="5" h="5" />
+        <part id="pal_sort" x="152" y="199" w="5" h="7" />
+        <part id="pal_presets" x="160" y="199" w="5" h="7" />
+        <part id="pal_options" x="168" y="199" w="5" h="7" />
+        <part id="pal_resize" x="175" y="200" w="7" h="5" />
         <part id="target_one" x="144" y="224" w="32" h="16" />
         <part id="target_frames" x="176" y="224" w="32" h="16" />
         <part id="target_layers" x="208" y="224" w="32" h="16" />
         <part id="target_frames_layers" x="240" y="224" w="32" h="16" />
-        <part id="selection_replace" x="176" y="160" w="7" h="7" />
-        <part id="selection_add" x="184" y="160" w="7" h="7" />
-        <part id="selection_subtract" x="192" y="160" w="7" h="7" />
+        <part id="selection_replace" x="176" y="159" w="7" h="9" />
+        <part id="selection_add" x="184" y="159" w="7" h="9" />
+        <part id="selection_subtract" x="192" y="159" w="7" h="9" />
         <part id="unpinned" x="192" y="144" w="8" h="8" />
         <part id="pinned" x="200" y="144" w="8" h="8" />
         <part id="drop_down_button_left_normal" x="48" y="32" w1="3" w2="2" w3="3" h1="4" h2="6" h3="6" />
@@ -293,10 +293,10 @@
         <part id="timeline_gear_active" x="264" y="24" w="12" h="12" />
         <part id="timeline_onionskin" x="264" y="36" w="12" h="12" />
         <part id="timeline_onionskin_active" x="264" y="48" w="12" h="12" />
-        <part id="timeline_onionskin_range" x="240" y="120" w1="3" w2="6" w3="3" h1="3" h2="6" h3="3" />
+        <part id="timeline_onionskin_range" x="240" y="120" w1="5" w2="2" w3="5" h1="6" h2="1" h3="5" />
         <part id="timeline_padding" x="276" y="12" w1="1" w2="10" w3="1" h1="1" h2="10" h3="1" />
         <part id="timeline_padding_tr" x="288" y="12" w1="1" w2="10" w3="1" h1="2" h2="9" h3="1" />
-        <part id="timeline_padding_bl" x="276" y="24" w1="1" w2="10" w3="1" h1="1" h2="9" h3="2" />
+        <part id="timeline_padding_bl" x="276" y="24" w1="1" w2="10" w3="1" h1="2" h2="8" h3="2" />
         <part id="timeline_padding_br" x="288" y="24" w1="1" w2="10" w3="1" h1="1" h2="9" h3="2" />
         <part id="timeline_drop_layer_deco" x="252" y="127" w1="3" w2="1" w3="3" h1="2" h2="1" h3="2" />
         <part id="timeline_drop_frame_deco" x="252" y="120" w1="2" w2="1" w3="2" h1="3" h2="1" h3="3" />
@@ -307,7 +307,7 @@
         <part id="drop_pixels_ok_selected" x="176" y="184" w="7" h="8" />
         <part id="drop_pixels_cancel" x="192" y="176" w="7" h="8" />
         <part id="drop_pixels_cancel_selected" x="192" y="184" w="7" h="8" />
-        <part id="warning_box" x="112" y="80" w="9" h="16" />
+        <part id="warning_box" x="112" y="80" w="8" h="16" />
         <part id="canvas_nw" x="96" y="96" w="16" h="16" />
         <part id="canvas_n" x="112" y="96" w="16" h="16" />
         <part id="canvas_ne" x="128" y="96" w="16" h="16" />
@@ -325,15 +325,15 @@
         <part id="ink_shading" x="144" y="176" w="16" h="16" />
         <part id="selection_opaque" x="208" y="176" w="16" h="10" />
         <part id="selection_masked" x="224" y="176" w="16" h="10" />
-        <part id="pivot_northwest" x="208" y="192" w="7" h="7" />
-        <part id="pivot_north" x="216" y="192" w="7" h="7" />
-        <part id="pivot_northeast" x="224" y="192" w="7" h="7" />
-        <part id="pivot_west" x="208" y="200" w="7" h="7" />
-        <part id="pivot_center" x="216" y="200" w="7" h="7" />
-        <part id="pivot_east" x="224" y="200" w="7" h="7" />
-        <part id="pivot_southwest" x="208" y="208" w="7" h="7" />
-        <part id="pivot_south" x="216" y="208" w="7" h="7" />
-        <part id="pivot_southeast" x="224" y="208" w="7" h="7" />
+        <part id="pivot_northwest" x="208" y="191" w="7" h="9" />
+        <part id="pivot_north" x="216" y="191" w="7" h="9" />
+        <part id="pivot_northeast" x="224" y="191" w="7" h="9" />
+        <part id="pivot_west" x="208" y="200" w="7" h="9" />
+        <part id="pivot_center" x="216" y="200" w="7" h="9" />
+        <part id="pivot_east" x="224" y="200" w="7" h="9" />
+        <part id="pivot_southwest" x="208" y="209" w="7" h="9" />
+        <part id="pivot_south" x="216" y="209" w="7" h="8" />
+        <part id="pivot_southeast" x="224" y="209" w="7" h="8" />
         <part id="icon_rgb" x="0" y="256" w="16" h="16" />
         <part id="icon_grayscale" x="16" y="256" w="16" h="16" />
         <part id="icon_indexed" x="32" y="256" w="16" h="16" />
@@ -400,6 +400,7 @@
         <part id="buttonset_hot_focused" x="128" y="0" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
         <part id="buttonset_item_focused" x="128" y="16" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
         <part id="Palette" x="198" y="57" w="16" h="16" />
+        <part id="warning_box_alternate" x="121" y="80" w="9" h="16" />
     </parts>
     <styles>
         <style id="box" />
