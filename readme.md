@@ -1,6 +1,6 @@
 # Sunken Theme
 
-**Root Version: 1.2.3 / 1.3dev **
+**Root Version: 1.2.3 / 1.3dev**
 
 A dark theme for Aseprite with plenty of depth.
 Older versions are also available in their respective folders.
