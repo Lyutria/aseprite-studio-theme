@@ -1,8 +1,8 @@
 # Sunken Theme
 
-**Root Version: 1.2.3**
+**Root Version: 1.2.3 / 1.3dev **
 
-A non-flat dark theme for Aseprite, roughly inspired by Photoshop.
+A dark theme for Aseprite with plenty of depth.
 Older versions are also available in their respective folders.
 
 Install the included .ttf before using, made by [Zacchary](http://zaccharydempseyplante.ca)
