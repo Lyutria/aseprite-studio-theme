@@ -1,9 +1,9 @@
 {
-  "name": "lyutrias-sunken-theme",
-  "displayName": "Lyutria's Sunken Theme",
+  "name": "lyutrias-studio-theme",
+  "displayName": "Lyutria's Studio Theme",
   "description": "Smooth photoshop inspired theme for Aseprite",
-  "version": "1.2.3",
-  "author": { "name": "Lyutria", "email": "None", "url": "" },
+  "version": "1.2.10",
+  "author": { "name": "Lyutria", "email": "me@lyutria.com", "url": "lyutria.com" },
   "contributors": [
   ],
   "publisher": "Lyutria",
@@ -13,7 +13,7 @@
   ],
   "contributes": {
     "themes": [
-      { "id": "Sunken Dark", "path": "." }
+      { "id": "Studio", "path": "." }
     ]
   }
 }
