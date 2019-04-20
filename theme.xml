@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <theme name="Studio" screenscaling="1" uiscaling="2">
     <authors>
-        <author name="Lyutria" url="" />
+        <author name="Lyutria" url="lyutria.com" />
     </authors>
     <fonts>
-        <!-- <font id="default" name="ttf-font" type="truetype" file="Pixellari.ttf" size="8" /> -->
+        <!-- Want a TTF / High res font? VVVVVV -->
+        <!--  Delete this arrow > -->
         <font id="default" font="Aseprite" size="6" />
-        <!-- <font id="mini" name="ttf-font" type="truetype" file="Pixellari.ttf" size="8" /> -->
         <font id="mini" font="Aseprite" size="6" />
-        <!-- <font id="mini" font="Aseprite Mini" /> -->
+        <!-- < And this arrow-->
+        <!-- Delete this line
+        <font id="default" name="ttf-font" type="truetype" file="Pixellari.ttf" size="8" />
+        <font id="mini" name="ttf-font" type="truetype" file="Pixellari.ttf" size="8" />
+             And this line -->
     </fonts>
     <dimensions>
         <dim id="scrollbar_size" value="12" />
@@ -43,10 +47,8 @@
         <color id="textbox_face" value="#333333" />
         <color id="textbox_code_face" value="#eeeeee" />
         <color id="entry_suffix" value="#c6c6c6" />
-        <!-- <color id="link_text" value="#7C9BFF" /> -->
-        <color id="link_text" value="#eeeeee" />
-        <!-- <color id="link_hover" value="#ff5555" /> -->
-        <color id="link_hover" value="#ffffff" />
+        <color id="link_text" value="#91B2CC" />
+        <color id="link_hover" value="#A3C9E6" />
         <color id="button_normal_text" value="#cccccc" />
         <color id="button_hot_text" value="#eeeeee" />
         <color id="button_selected_text" value="#ffffff" />
@@ -57,9 +59,9 @@
         <color id="menuitem_normal_text" value="#bbbbbb" />
         <color id="menuitem_normal_face" value="#555555" />
         <color id="menuitem_hot_text" value="#cccccc" />
-        <color id="menuitem_hot_face" value="#7c909f" />
+        <color id="menuitem_hot_face" value="#5B7080" />
         <color id="menuitem_highlight_text" value="#ffffff" />
-        <color id="menuitem_highlight_face" value="#7c909f" />
+        <color id="menuitem_highlight_face" value="#5B7080" />
         <color id="menu_face" value="#555555" />
         <color id="window_face" value="#333333" />
         <color id="window_popup_face" value="#555555" />
@@ -74,24 +76,24 @@
         <color id="listitem_selected_text" value="#cccccc" />
         <color id="listitem_selected_face" value="#555555" />
         <color id="slider_empty_text" value="#111111" />
-        <color id="slider_full_text" value="#777777" />
+        <color id="slider_full_text" value="#999999" />
         <color id="tab_normal_text" value="#777777" />
         <color id="tab_active_text" value="#cccccc" />
         <color id="tab_active_face" value="#333333" />
         <color id="popup_window_border" value="#000000" />
-        <color id="tooltip_text" value="#111111" />
+        <color id="tooltip_text" value="#cccccc" />
         <color id="tooltip_face" value="#535353" />
         <color id="filelist_even_row_text" value="#cccccc" />
         <color id="filelist_even_row_face" value="#353535" />
         <color id="filelist_odd_row_text" value="#cccccc" />
         <color id="filelist_odd_row_face" value="#333333" />
         <color id="filelist_selected_row_text" value="#ffffff" />
-        <color id="filelist_selected_row_face" value="#7c909f" />
+        <color id="filelist_selected_row_face" value="#5B7080" />
         <color id="filelist_disabled_row_text" value="#ffc8c8" />
         <color id="workspace" value="#333333" />
         <color id="workspace_text" value="#555555" />
-        <color id="workspace_link" value="#888888" />
-        <color id="workspace_link_hover" value="#4488ff" />
+        <color id="workspace_link" value="#91B2CC" />
+        <color id="workspace_link_hover" value="#A3C9E6" />
         <color id="timeline_normal" value="#242424" />
         <color id="timeline_normal_text" value="#070707" />
         <color id="timeline_hover" value="#d9d9d9" />
@@ -163,17 +165,17 @@
         <part id="sunken_mini_focused" x="16" y="80" w1="4" w2="4" w3="4" h1="3" h2="6" h3="3" />
         <part id="window" x="0" y="0" w1="3" w2="7" w3="3" h1="14" h2="5" h3="5" />
         <part id="menu" x="0" y="96" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
-        <part id="window_button_normal" x="16" y="0" w="9" h="11" />
-        <part id="window_button_hot" x="25" y="0" w="9" h="11" />
-        <part id="window_button_selected" x="34" y="0" w="9" h="11" />
-        <part id="window_close_icon" x="16" y="11" w="5" h="6" />
-        <part id="window_play_icon" x="21" y="11" w="5" h="6" />
-        <part id="window_stop_icon" x="26" y="11" w="5" h="6" />
-        <part id="window_center_icon" x="31" y="11" w="5" h="6" />
-        <part id="slider_full" x="0" y="144" w1="5" w2="6" w3="5" h1="5" h2="1" h3="10" />
-        <part id="slider_empty" x="16" y="144" w1="5" w2="6" w3="5" h1="5" h2="1" h3="10" />
-        <part id="slider_full_focused" x="0" y="160" w1="5" w2="6" w3="5" h1="5" h2="1" h3="10" />
-        <part id="slider_empty_focused" x="16" y="160" w1="5" w2="6" w3="5" h1="5" h2="1" h3="10" />
+        <part id="window_button_normal" x="16" y="0" w="9" h="9" />
+        <part id="window_button_hot" x="25" y="0" w="9" h="9" />
+        <part id="window_button_selected" x="34" y="0" w="9" h="9" />
+        <part id="window_close_icon" x="16" y="11" w="5" h="5" />
+        <part id="window_play_icon" x="21" y="11" w="5" h="5" />
+        <part id="window_stop_icon" x="26" y="11" w="5" h="5" />
+        <part id="window_center_icon" x="31" y="11" w="5" h="5" />
+        <part id="slider_full" x="0" y="144" w1="2" w2="12" w3="2" h1="5" h2="1" h3="10" />
+        <part id="slider_empty" x="16" y="144" w1="2" w2="12" w3="2" h1="5" h2="1" h3="10" />
+        <part id="slider_full_focused" x="0" y="160" w1="2" w2="12" w3="2" h1="5" h2="1" h3="10" />
+        <part id="slider_empty_focused" x="16" y="160" w1="2" w2="12" w3="2" h1="5" h2="1" h3="10" />
         <part id="mini_slider_full" x="32" y="144" w1="2" w2="12" w3="2" h1="2" h2="11" h3="3" />
         <part id="mini_slider_empty" x="48" y="144" w1="2" w2="12" w3="2" h1="2" h2="11" h3="3" />
         <part id="mini_slider_full_focused" x="32" y="160" w1="2" w2="12" w3="2" h1="2" h2="11" h3="3" />
@@ -182,15 +184,15 @@
         <part id="mini_slider_thumb_focused" x="48" y="176" w="5" h="4" />
         <part id="separator_horz" x="32" y="80" w="9" h="5" />
         <part id="separator_vert" x="32" y="96" w="5" h="9" />
-        <part id="combobox_arrow_down" x="99" y="144" w="9" h="16" />
-        <part id="combobox_arrow_down_selected" x="109" y="144" w="9" h="16" />
-        <part id="combobox_arrow_down_disabled" x="119" y="144" w="9" h="16" />
-        <part id="combobox_arrow_up" x="99" y="163" w="12" h="10" />
-        <part id="combobox_arrow_up_selected" x="115" y="163" w="12" h="10" />
-        <part id="combobox_arrow_up_disabled" x="131" y="163" w="12" h="10" />
-        <part id="combobox_arrow_left" x="99" y="180" w="12" h="10" />
-        <part id="combobox_arrow_left_selected" x="115" y="180" w="12" h="10" />
-        <part id="combobox_arrow_left_disabled" x="131" y="180" w="12" h="10" />
+        <part id="combobox_arrow_down" x="109" y="145" w="6" h="8" />
+        <part id="combobox_arrow_down_selected" x="116" y="145" w="6" h="8" />
+        <part id="combobox_arrow_down_disabled" x="123" y="145" w="6" h="8" />
+        <part id="combobox_arrow_up" x="99" y="173" w="12" h="10" />
+        <part id="combobox_arrow_up_selected" x="115" y="173" w="12" h="10" />
+        <part id="combobox_arrow_up_disabled" x="131" y="173" w="12" h="10" />
+        <part id="combobox_arrow_left" x="99" y="185" w="12" h="10" />
+        <part id="combobox_arrow_left_selected" x="115" y="185" w="12" h="10" />
+        <part id="combobox_arrow_left_disabled" x="131" y="185" w="12" h="10" />
         <part id="combobox_arrow_right" x="99" y="196" w="12" h="10" />
         <part id="combobox_arrow_right_selected" x="115" y="196" w="12" h="10" />
         <part id="combobox_arrow_right_disabled" x="131" y="196" w="12" h="10" />
@@ -207,8 +209,8 @@
         <part id="tab_filler" x="0" y="112" w="2" h="12" />
         <part id="tab_modified_icon_normal" x="32" y="112" w="5" h="6" />
         <part id="tab_modified_icon_active" x="32" y="118" w="5" h="6" />
-        <part id="tab_close_icon_normal" x="37" y="112" w="5" h="5" />
-        <part id="tab_close_icon_active" x="37" y="117" w="5" h="6" />
+        <part id="tab_close_icon_normal" x="37" y="112" w="5" h="6" />
+        <part id="tab_close_icon_active" x="37" y="118" w="5" h="6" />
         <part id="tab_icon_bg_clicked" x="42" y="112" w="14" h="12" />
         <part id="tab_icon_bg_hover" x="56" y="112" w="14" h="12" />
         <part id="tab_home_icon_normal" x="32" y="240" w="7" h="8" />
@@ -274,8 +276,8 @@
         <part id="timeline_closed_eye_normal" x="240" y="24" w="12" h="12" />
         <part id="timeline_closed_eye_active" x="252" y="24" w="12" h="12" />
         <part id="timeline_open_padlock_normal" x="240" y="36" w="12" h="12" />
-        <part id="timeline_open_padlock_active" x="252" y="36" w="12" h="12" />
-        <part id="timeline_closed_padlock_normal" x="240" y="48" w="12" h="12" />
+        <part id="timeline_open_padlock_active" x="196" y="49" w="12" h="12" />
+        <part id="timeline_closed_padlock_normal" x="196" y="61" w="12" h="12" />
         <part id="timeline_closed_padlock_active" x="252" y="48" w="12" h="12" />
         <part id="timeline_continuous_normal" x="276" y="36" w="12" h="12" />
         <part id="timeline_continuous_active" x="288" y="36" w="12" h="12" />
@@ -298,8 +300,8 @@
         <part id="timeline_left_link_active" x="264" y="84" w1="3" w2="9" w3="0" h1="4" h2="1" h3="7" />
         <part id="timeline_both_links_active" x="264" y="96" w1="0" w2="12" w3="0" h1="4" h2="1" h3="7" />
         <part id="timeline_right_link_active" x="264" y="108" w1="0" w2="9" w3="3" h1="4" h2="1" h3="7" />
-        <part id="timeline_gear" x="264" y="12" w="12" h="12" />
-        <part id="timeline_gear_active" x="264" y="24" w="12" h="12" />
+        <part id="timeline_gear" x="208" y="49" w="12" h="12" />
+        <part id="timeline_gear_active" x="208" y="61" w="12" h="12" />
         <part id="timeline_onionskin" x="264" y="36" w="12" h="12" />
         <part id="timeline_onionskin_active" x="264" y="48" w="12" h="12" />
         <part id="timeline_onionskin_range" x="240" y="120" w1="5" w2="2" w3="5" h1="6" h2="1" h3="5" />
@@ -316,7 +318,7 @@
         <part id="drop_pixels_ok_selected" x="176" y="184" w="7" h="8" />
         <part id="drop_pixels_cancel" x="192" y="176" w="7" h="8" />
         <part id="drop_pixels_cancel_selected" x="192" y="184" w="7" h="8" />
-        <part id="warning_box" x="130" y="80" w="11" h="12" />
+        <part id="warning_box" x="114" y="82" w="11" h="12" />
         <part id="canvas_nw" x="96" y="96" w="16" h="16" />
         <part id="canvas_n" x="112" y="96" w="16" h="16" />
         <part id="canvas_ne" x="128" y="96" w="16" h="16" />
@@ -408,11 +410,19 @@
         <part id="buttonset_item_pushed" x="112" y="16" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
         <part id="buttonset_hot_focused" x="128" y="0" w1="3" w2="9" w3="4" h1="4" h2="8" h3="4" />
         <part id="buttonset_item_focused" x="128" y="16" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
-        <part id="Palette" x="198" y="57" w="16" h="16" />
-        <part id="warning_box_alternate" x="112" y="80" w="18" h="16" />
+        <part id="Palette" x="178" y="49" w="16" h="16" />
         <part id="selection_intersect" x="200" y="159" w="7" h="9" />
-        <part id="drop_down_arrow_normal" x="129" y="148" w="5" h="8" />
-        <part id="drop_down_arrow_hot" x="136" y="148" w="5" h="8" />
+        <part id="drop_down_arrow_normal" x="130" y="145" w="5" h="8" />
+        <part id="drop_down_arrow_hot" x="137" y="145" w="5" h="8" />
+        <part id="combobox_button" x="99" y="144" w1="1" w2="3" w3="5" h1="4" h2="7" h3="5" />
+        <part id="warning_box_hot" x="126" y="82" w="11" h="12" />
+        <part id="timeline_open_padlock_active_custom" x="252" y="36" w="12" h="12" />
+        <part id="timeline_closed_padlock_normal_custom" x="240" y="48" w="12" h="12" />
+        <part id="timeline_gear_custom" x="264" y="12" w="12" h="12" />
+        <part id="timeline_gear_active_custom" x="264" y="24" w="12" h="12" />
+        <part id="tab_close_icon_hot" x="35" y="124" w="5" h="6" />
+        <part id="new_frame_icon" x="220" y="49" w="13" h="12" />
+        <part id="new_frame_icon_hot" x="220" y="61" w="13" h="12" />
     </parts>
     <styles>
         <style id="box" />
@@ -574,17 +584,24 @@
             <icon part="radio_disabled" align="left middle" x="2" state="disabled" />
         </style>
         <style id="mini_button">
-            <!-- <background-border part="toolbutton_last" /> -->
-            <!-- <background-border part="toolbutton_hot" state="mouse" /> -->
-            <!-- <background-border part="toolbutton_hot" state="focus" /> -->
-            <!-- <background-border part="toolbutton_pushed" state="selected" /> -->
+            <background-border part="toolbutton_last" />
+            <background-border part="toolbutton_hot" state="mouse" />
+            <background-border part="toolbutton_hot" state="focus" />
+            <background-border part="toolbutton_pushed" state="selected" />
+            <text color="button_normal_text" />
+            <text color="button_hot_text" state="mouse" />
+            <text color="button_selected_text" state="selected" />
+        </style>
+        <style id="mini_button_custom">
+            <!-- Version of mini_button without toolbar background -->
             <text color="button_normal_text" />
             <text color="button_hot_text" state="mouse" />
             <text color="button_selected_text" state="selected" />
         </style>
         <style id="mini_check_box" extends="check_box" font="mini" />
         <!-- Custom combo box button style :) -->
-        <style id="combobox_button" extends="mini_button">
+        <style id="combobox_button" extends="mini_button_custom">
+            <background part="combobox_button" />
             <icon part="combobox_arrow_down" />
             <icon part="combobox_arrow_down_selected" state="mouse" />
             <icon part="combobox_arrow_down_disabled" state="selected" />
@@ -604,24 +621,24 @@
             <icon part="drop_down_arrow_hot" state="mouse" />
             <!-- <icon part="combobox_arrow_down_disabled" state="disabled" /> -->
         </style>
-        <style id="go_back_button" extends="mini_button">
+        <style id="go_back_button" extends="mini_button_custom">
             <icon part="combobox_arrow_left" />
             <icon part="combobox_arrow_left_selected" state="mouse" />
             <icon part="combobox_arrow_left_disabled" state="disabled" />
         </style>
-        <style id="go_forward_button" extends="mini_button">
+        <style id="go_forward_button" extends="mini_button_custom">
             <icon part="combobox_arrow_right" />
             <icon part="combobox_arrow_right_selected" state="mouse" />
             <icon part="combobox_arrow_right_disabled" state="disabled" />
         </style>
-        <style id="go_up_button" extends="mini_button">
+        <style id="go_up_button" extends="mini_button_custom">
             <icon part="combobox_arrow_up" />
             <icon part="combobox_arrow_up_selected" state="mouse" />
             <icon part="combobox_arrow_up_disabled" state="disabled" />
         </style>
-        <style id="new_folder_button" extends="mini_button">
+        <style id="new_folder_button" extends="mini_button_custom">
             <icon part="newfolder" />
-            <icon part="newfolder_selected" state="selected" />
+            <icon part="newfolder_selected" state="mouse" />
         </style>
         <style id="color_wheel_options" border="1">
             <background color="editor_face" />
@@ -630,8 +647,12 @@
             <icon part="pal_options" />
         </style>
         <style id="recover_sprites_button" extends="button" border="0" padding="8" />
-        <style id="new_frame_button" extends="mini_button" />
-        <style id="color_button" extends="mini_button" border="5" font="mini" />
+        <style id="new_frame_button" extends="mini_button_custom" margin="2">
+            <background color="window_face" />
+            <icon part="new_frame_icon" />
+            <icon part="new_frame_icon_hot" state="mouse" />
+        </style>
+        <style id="color_button" extends="mini_button_custom" border="5" font="mini" />
         <style id="splitter">
             <background color="face" />
         </style>
@@ -655,25 +676,28 @@
             <background color="background" />
         </style>
         <style id="recent_file" border="2">
-            <!-- <background color="background" /> -->
             <background color="background" />
             <background color="menuitem_hot_face" state="mouse" />
             <background color="listitem_selected_face" state="selected" />
             <text color="text" align="left" x="2" />
-            <text color="listitem_selected_text" align="left" x="2" state="selected" />
+            <text color="menuitem_highlight_text" align="left" x="2" state="mouse" />
+            <text color="menuitem_highlight_text" align="left" x="2" state="selected" />
         </style>
         <style id="recent_file_detail" border="2" border-left="0" extends="recent_file">
             <text color="disabled" align="left" x="2" />
+            <text color="menuitem_hot_text" align="left" x="2" state="mouse" />
         </style>
         <style id="news_item" border="2">
             <background color="background" />
             <background color="menuitem_hot_face" state="mouse" />
             <background color="listitem_selected_face" state="selected" />
             <text color="text" align="left" x="2" />
-            <text color="listitem_selected_text" align="left" x="2" state="selected" />
+            <text color="menuitem_highlight_text" align="left" x="2" state="mouse" />
+            <text color="menuitem_highlight_text" align="left" x="2" state="selected" />
         </style>
         <style id="news_item_detail" extends="news_item" border="2">
             <text color="disabled" align="left top wordwrap" x="2" />
+            <text color="menuitem_hot_text" align="left top wordwrap" x="2" state="mouse" />
             <text color="listitem_selected_text" align="left top wordwrap" x="2" state="selected" />
         </style>
         <style id="scrollbar">
@@ -729,11 +753,13 @@
         </style>
         <style id="tab_close_icon" extends="tab_icon">
             <icon part="tab_close_icon_normal" align="left middle" x="3" />
+            <icon part="tab_close_icon_hot" align="left middle" x="3" state="mouse" />
             <icon part="tab_close_icon_active" align="left middle" x="3" state="focus" />
+            <icon part="tab_close_icon_hot" align="left middle" x="3" state="focus mouse" />
             <icon part="tab_close_icon_normal" align="left middle" x="3" state="selected" />
         </style>
         <style id="tab_modified_icon" extends="tab_icon">
-            <icon part="tab_modified_icon_normal" align="left middle" x="3" />
+            <icon part="tab_modified_icon_normal" align="left middle" x="3" />m
             <icon part="tab_modified_icon_active" align="left middle" x="3" state="focus" />
             <icon part="tab_modified_icon_normal" align="left middle" x="3" state="selected" />
         </style>
@@ -752,8 +778,8 @@
         </style>
         <style id="warning_box" padding-left="2" padding-right="2">
             <background color="workspace" />
-            <background color="hot_face" state="mouse" />
             <icon part="warning_box" align="center middle" />
+            <icon part="warning_box_hot" align="center middle" state="mouse" />
         </style>
         <style id="timeline">
             <background part="timeline_normal" />
@@ -777,17 +803,19 @@
             <icon part="timeline_closed_eye_active" state="selected" />
             <icon part="timeline_closed_eye_normal" color="disabled" state="disabled" />
         </style>
+        <!-- Split certain padlock images into _CUSTOM slices -->
+        <!-- This allows us to use the originals for a custom image for the palette lock -->
         <style id="timeline_open_padlock" extends="timeline_box">
             <icon part="timeline_open_padlock_normal" />
-            <icon part="timeline_open_padlock_active" state="focus" />
-            <icon part="timeline_open_padlock_active" state="selected" />
+            <icon part="timeline_open_padlock_active_custom" state="focus" />
+            <icon part="timeline_open_padlock_active_custom" state="selected" />
             <icon part="timeline_open_padlock_normal" color="disabled" state="disabled" />
         </style>
         <style id="timeline_closed_padlock" extends="timeline_box">
-            <icon part="timeline_closed_padlock_normal" />
+            <icon part="timeline_closed_padlock_normal_custom" />
             <icon part="timeline_closed_padlock_active" state="focus" />
             <icon part="timeline_closed_padlock_active" state="selected" />
-            <icon part="timeline_closed_padlock_normal" color="disabled" state="disabled" />
+            <icon part="timeline_closed_padlock_normal_custom" color="disabled" state="disabled" />
         </style>
         <style id="timeline_continuous" extends="timeline_box">
             <icon part="timeline_continuous_normal" />
@@ -864,9 +892,9 @@
             <background part="timeline_both_links_active" />
         </style>
         <style id="timeline_gear" extends="timeline_box">
-            <icon part="timeline_gear" />
-            <icon part="timeline_gear_active" state="focus" />
-            <icon part="timeline_gear_active" state="selected" />
+            <icon part="timeline_gear_custom" />
+            <icon part="timeline_gear_active_custom" state="focus" />
+            <icon part="timeline_gear_active_custom" state="selected" />
         </style>
         <style id="timeline_onionskin" extends="timeline_box">
             <icon part="timeline_onionskin" />
