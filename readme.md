@@ -2,6 +2,8 @@
 
 **Theme made for Version: 1.2.10beta4** - *Compatibility may vary.*
 
+**[CLICK HERE TO DOWNLOAD the latest version!](https://github.com/Lyutria/aseprite-studio-theme/releases/download/1.2.10.1/studio-theme.aseprite-extension)**
+
 A dark, photoshop inspired theme for Aseprite.
 ![screenshot](https://github.com/Lyutria/aseprite-sunken-theme/raw/master/screenshot.png)
 
