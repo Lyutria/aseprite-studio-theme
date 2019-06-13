@@ -99,7 +99,7 @@
         <color id="timeline_hover" value="#d9d9d9" />
         <color id="timeline_hover_text" value="#000000" />
         <color id="timeline_active" value="#333333" />
-        <color id="timeline_active_text" value="#222222" />
+        <color id="timeline_active_text" value="#111111" />
         <color id="timeline_active_hover" value="#3e3e3e" />
         <color id="timeline_active_hover_text" value="#111111" />
         <color id="timeline_clicked" value="#536069" />
@@ -197,7 +197,7 @@
         <part id="combobox_arrow_right_selected" x="115" y="196" w="12" h="10" />
         <part id="combobox_arrow_right_disabled" x="131" y="196" w="12" h="10" />
         <part id="newfolder" x="99" y="211" w="9" h="9" />
-        <part id="newfolder_selected" x="115" y="211" w="9" h="9" />
+        <part id="newfolder_selected" x="110" y="211" w="9" h="9" />
         <part id="toolbutton_normal" x="96" y="0" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
         <part id="toolbutton_hot" x="128" y="32" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
         <part id="toolbutton_last" x="112" y="32" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
@@ -246,10 +246,6 @@
         <part id="pal_presets" x="160" y="199" w="5" h="7" />
         <part id="pal_options" x="168" y="199" w="5" h="7" />
         <part id="pal_resize" x="175" y="200" w="7" h="5" />
-        <part id="target_one" x="144" y="224" w="32" h="16" />
-        <part id="target_frames" x="176" y="224" w="32" h="16" />
-        <part id="target_layers" x="208" y="224" w="32" h="16" />
-        <part id="target_frames_layers" x="240" y="224" w="32" h="16" />
         <part id="selection_replace" x="176" y="159" w="7" h="9" />
         <part id="selection_add" x="184" y="159" w="7" h="9" />
         <part id="selection_subtract" x="192" y="159" w="7" h="9" />
@@ -296,7 +292,7 @@
         <part id="timeline_from_right_normal" x="240" y="96" w1="5" w2="7" w3="0" h1="5" h2="3" h3="4" />
         <part id="timeline_from_right_active" x="252" y="96" w1="5" w2="7" w3="0" h1="5" h2="3" h3="4" />
         <part id="timeline_from_both_normal" x="240" y="108" w1="0" w2="12" w3="0" h1="5" h2="3" h3="4" />
-        <part id="timeline_from_both_active" x="252" y="108" w1="0" w2="12" w3="0" h1="5" h2="3" h3="4" />
+        <part id="timeline_from_both_active" x="252" y="108" w1="0" w2="11" w3="1" h1="5" h2="3" h3="4" />
         <part id="timeline_left_link_active" x="264" y="84" w1="3" w2="9" w3="0" h1="4" h2="1" h3="7" />
         <part id="timeline_both_links_active" x="264" y="96" w1="0" w2="12" w3="0" h1="4" h2="1" h3="7" />
         <part id="timeline_right_link_active" x="264" y="108" w1="0" w2="9" w3="3" h1="4" h2="1" h3="7" />
@@ -324,7 +320,6 @@
         <part id="canvas_ne" x="128" y="96" w="16" h="16" />
         <part id="canvas_w" x="96" y="112" w="16" h="16" />
         <part id="canvas_c" x="112" y="112" w="16" h="16" />
-        <part id="canvas_e" x="128" y="112" w="16" h="16" />
         <part id="canvas_sw" x="96" y="128" w="16" h="16" />
         <part id="canvas_s" x="112" y="128" w="16" h="16" />
         <part id="canvas_se" x="128" y="128" w="16" h="16" />
@@ -423,6 +418,20 @@
         <part id="tab_close_icon_hot" x="35" y="124" w="5" h="6" />
         <part id="new_frame_icon" x="220" y="49" w="13" h="12" />
         <part id="new_frame_icon_hot" x="220" y="61" w="13" h="12" />
+        <part id="list_view" x="119" y="210" w="10" h="10" />
+        <part id="small_icon_view" x="129" y="210" w="10" h="10" />
+        <part id="big_icon_view" x="139" y="210" w="10" h="10" />
+        <part id="outline_circle" x="144" y="224" w="13" h="15" />
+        <part id="outline_square" x="160" y="224" w="13" h="15" />
+        <part id="outline_horizontal" x="176" y="224" w="13" h="15" />
+        <part id="outline_vertical" x="192" y="224" w="13" h="15" />
+        <part id="outline_empty_pixel" x="208" y="224" w="5" h="5" />
+        <part id="outline_full_pixel" x="214" y="224" w="5" h="5" />
+        <part id="linear_gradient" x="174" y="209" w="10" h="11" />
+        <part id="folder_icon_small" x="144" y="272" w="10" h="8" />
+        <part id="folder_icon_medium" x="160" y="272" w="16" h="16" />
+        <part id="folder_icon_big" x="176" y="272" w="31" h="30" />
+        <part id="radial_gradient" x="185" y="209" w="10" h="11" />
     </parts>
     <styles>
         <style id="box" />
@@ -552,6 +561,7 @@
             <background-border part="button_hot" state="mouse" />
             <background-border part="button_focused" state="focus" />
             <background-border part="button_selected" state="selected" />
+            <background-border part="button_normal" state="mouse disabled" />
             <text color="button_normal_text" />
             <text color="button_hot_text" state="mouse" />
             <text color="button_selected_text" state="selected" />
@@ -686,6 +696,16 @@
         <style id="recent_file_detail" border="2" border-left="0" extends="recent_file">
             <text color="disabled" align="left" x="2" />
             <text color="menuitem_hot_text" align="left" x="2" state="mouse" />
+        </style>
+        <style id="recent_file_pin">
+            <background color="background" />
+            <background color="menuitem_hot_face" state="mouse" />
+            <background color="listitem_selected_face" state="selected" />
+            <newlayer />
+            <background part="unpinned" align="center middle" />
+            <background part="unpinned" align="center middle" state="selected" />
+            <background part="pinned" align="center middle" state="focus" />
+            <background part="pinned" align="center middle" state="focus selected" />
         </style>
         <style id="news_item" border="2">
             <background color="background" />
@@ -860,7 +880,11 @@
         </style>
         <style id="timeline_selected_cel">
             <background part="timeline_clicked" />
+            <background part="timeline_active" state="mouse" />
             <text color="timeline_clicked_text" />
+        </style>
+        <style id="timeline_focused_cel">
+            <background part="timeline_focused" />
         </style>
         <style id="timeline_empty_frame">
             <background part="timeline_empty_frame_normal" />

@@ -11,6 +11,12 @@ Want to use a high res font? Pixellari is included, open `theme.xml` and follow 
 
 # Changelog
 ```
+1.2.12.1
+> Added new Aseprite features to theme
+  > Pins in Home, outline window,
+  > file explorer view modes, gradient modes.
+> Improved timeline colors for better contrast (minor)
+
 1.2.10beta4 update 1
 > Improved anti-aliasing on some elements
 > Improved button contrast on popup windows
