@@ -13,6 +13,11 @@ Want to use a high res font? Pixellari is included, open `theme.xml` and follow 
 
 # Changelog
 ```
+1.2.12.1 update 1
+> Added missing aseprite texture,
+  timeline_focused now exists, no more messed up
+  texture when interacting with the timeline.
+
 1.2.12.1
 > Added new Aseprite features to theme
   > Pins in Home, outline window,
