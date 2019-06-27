@@ -1,8 +1,9 @@
 # Studio for Aseprite
 
 **Theme made for Version: 1.2.12.1** - *Compatibility may vary.*
+**Update #1 for this version:** Fixed garbled background image in timeline. If you got the first version for 1.2.12.1 and are bothered by this you can download this update to fix it!
 
-**[CLICK HERE TO DOWNLOAD the latest version!](https://github.com/Lyutria/aseprite-studio-theme/releases/download/1.2.12.1/studio-theme.aseprite-extension)**
+**[CLICK HERE TO DOWNLOAD the latest version!](https://github.com/Lyutria/aseprite-studio-theme/releases/download/1.2.12.1.2/studio-theme.aseprite-extension)**
 
 **If you use an OLDER version of Aseprite, please check [releases](https://github.com/Lyutria/aseprite-studio-theme/releases) for the right version of the theme, otherwise some icons will be incorrect!**
 
