@@ -320,6 +320,7 @@
         <part id="canvas_ne" x="128" y="96" w="16" h="16" />
         <part id="canvas_w" x="96" y="112" w="16" h="16" />
         <part id="canvas_c" x="112" y="112" w="16" h="16" />
+        <part id="canvas_e" x="128" y="112" w="16" h="16" />
         <part id="canvas_sw" x="96" y="128" w="16" h="16" />
         <part id="canvas_s" x="112" y="128" w="16" h="16" />
         <part id="canvas_se" x="128" y="128" w="16" h="16" />
