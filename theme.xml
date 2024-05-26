@@ -401,9 +401,9 @@
         <part id="aseprite_face_mouse" x="28" y="272" w="28" h="30" />
         <part id="aseprite_face_pushed" x="56" y="272" w="28" h="30" />
         <part id="buttonset_item_normal" x="96" y="16" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
-        <part id="buttonset_item_hot" x="112" y="0" w1="3" w2="10" w3="3" h1="11" h2="1" h3="4" />
-        <part id="buttonset_item_pushed" x="112" y="16" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
-        <part id="buttonset_hot_focused" x="128" y="0" w1="3" w2="9" w3="4" h1="4" h2="8" h3="4" />
+        <part id="buttonset_item_hot" x="112" y="0" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
+        <part id="buttonset_item_pushed" x="112" y="16" w1="3" w2="10" w3="3" h1="4" h2="9" h3="3" />
+        <part id="buttonset_hot_focused" x="128" y="0" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
         <part id="buttonset_item_focused" x="128" y="16" w1="3" w2="10" w3="3" h1="3" h2="9" h3="4" />
         <part id="Palette" x="178" y="49" w="16" h="16" />
         <part id="selection_intersect" x="200" y="159" w="7" h="9" />
